@@ -1,7 +1,6 @@
 #!/bin/bash
 for j in {1..100}
 do
-  #touch ./saved/data${j}.txt  # Inutile (crée un saut de ligne dans le fichier de sauvegarde)
   for i in {1..100} 
   do
     echo
